@@ -66,5 +66,5 @@ async def helpdesk(interaction: discord.Interaction):
     await interaction.response.send_message(embed=embed, ephemeral=True)
 
 
-# --- YOUR CHAT TOKEN PLUGGED IN BELOW ---
-bot.run('MTUxNTM0MzA5MTc1MjYzMjQyMA.G0h94W.4IwUeKf4lPTiF5yeGk77Y0_AW4eA4DATVU3a8g')
+# --- YOUR CHAT TOKEN PLUGGED IN BELOW ---         
+jclient.run(os.environ['DISCORD_TOKEN'])
